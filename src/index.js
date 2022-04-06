@@ -6,7 +6,7 @@ const path = require('path');
 
 
 //Configuracion del puerto del servidor
-app.set('port',4000);
+app.set('port', 4000);
 app.set('views', path.join(__dirname, 'views'));
 app.engine('html',require('ejs').renderFile);
 app.set('view engine', 'ejs');
@@ -18,7 +18,8 @@ app.set('view engine', 'ejs');
 app.use(require('./routers/index'));
 
 
-//Static files
+//Static files"
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 //Escuchando el servidor, iniciando el servidor 
