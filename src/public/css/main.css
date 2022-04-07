@@ -6,3 +6,9 @@ body {
 }
 
 
+/*CLASE PARA QUITAR EL FONDO DE UNA IMAGEN */
+.remove-bg{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
