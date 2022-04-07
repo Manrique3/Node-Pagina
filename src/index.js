@@ -27,4 +27,5 @@ app.listen(app.set('port'), () =>{
     console.log('Server on port', app.set('port'));
 });
 
-
+// INICIO DE SERVIDOR CON EL COMANDO NODE SRC.
+// Crtl + A, Crtl + K, Crtl + D ORDENA LAS LINEAS DE CODIGO
